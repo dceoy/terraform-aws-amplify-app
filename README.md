@@ -1,19 +1,17 @@
-terraform-aws-amplify-app
-=========================
+# terraform-aws-amplify-app
 
 Terraform modules of an AWS Amplify application
 
 [![CI](https://github.com/dceoy/terraform-aws-terraform-aws-amplify-app/actions/workflows/ci.yml/badge.svg)](https://github.com/dceoy/terraform-aws-terraform-aws-amplify-app/actions/workflows/ci.yml)
 
-Installation
-------------
+## Installation
 
 1.  Check out the repository.
 
     ```sh
     $ git clone https://github.com/dceoy/terraform-aws-terraform-aws-amplify-app.git
     $ cd terraform-aws-terraform-aws-amplify-app
-    ````
+    ```
 
 2.  Install [AWS CLI](https://aws.amazon.com/cli/) and set `~/.aws/config` and `~/.aws/credentials`.
 
@@ -43,8 +41,7 @@ Installation
     $ terragrunt run-all apply --working-dir='envs/dev/' --non-interactive
     ```
 
-Cleanup
--------
+## Cleanup
 
 ```sh
 $ terragrunt run-all destroy --working-dir='envs/dev/' --non-interactive
